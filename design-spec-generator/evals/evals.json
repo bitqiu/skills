@@ -1,0 +1,23 @@
+{
+  "skill_name": "design-spec-generator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "根据当前仓库里的 React 管理后台源码，提炼现有视觉语言并输出到 ops-design 文件夹。需要能指导后续订单列表和退款详情页的实现。",
+      "expected_output": "Creates ops-design/DESIGN.md, preview.html, and preview-dark.html; infers a backend-admin archetype from source evidence and demonstrates dense operational components in both themes.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "这是我们健身记录 App 的三张截图。帮我整理一套可落地的设计规范，没有指定品牌字体，输出默认目录即可。",
+      "expected_output": "Creates DESIGN/DESIGN.md, preview.html, and preview-dark.html; marks font and unseen-state assumptions, and presents a touch-safe mobile app specimen rather than a compressed desktop layout.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "为一个叫 ForgeFlow 的 AI 视频生成工具做视觉设计规范。用户输入提示词、选择模型和画幅、等待生成、比较版本并下载。风格要专业、偏创意工作室，不要俗套的 AI 紫色渐变。输出到 brand-system。",
+      "expected_output": "Creates brand-system/DESIGN.md, preview.html, and preview-dark.html; chooses the AIGC archetype and documents a distinctive generation workspace, relevant states, and non-generic light/dark visual systems.",
+      "files": []
+    }
+  ]
+}
