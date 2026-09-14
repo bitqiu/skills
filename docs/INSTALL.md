@@ -1,52 +1,54 @@
-# 安装教程
+# Installation Guide
 
-## 环境要求
+## Requirements
 
 - Git
-- POSIX Shell（macOS、Linux 或 WSL）
-- Python 3（用于仓库校验和锁文件更新）
+- POSIX Shell (macOS, Linux, or WSL)
+- Python 3 (used by repository validation and lock-file updates)
 
-## 从本地仓库安装
+## Install from the Repository
 
-在仓库根目录执行：
+Run this command from the repository root:
 
 ```sh
 ./scripts/install.sh
 ```
 
-默认安装到 `$HOME/.codex/skills/product-engineering`。可通过环境变量指定目录：
+The default destination is `$HOME/.codex/skills/product-engineering`. Choose another destination with:
 
 ```sh
 SKILLS_HOME="$HOME/.codex/skills/product-engineering" ./scripts/install.sh
 ```
 
-脚本会复制 flat namespace 下的全部 Skill，并在安装前运行 `validate-skills.sh`。如需覆盖已有目录：
+The installer copies the curated skills in the flat `skills/` namespace and runs `validate-skills.sh` first. To replace an existing installation:
 
 ```sh
 FORCE=1 ./scripts/install.sh
 ```
 
-## 手动安装
+## Manual Installation
 
-将 `skills/` 下的每个 Skill 目录复制到 Agent 平台的 Skills 目录，保持目录名与 `SKILL.md` 中的 `name` 一致。不要复制 `.skill-drafts/`、`registry/` 或 `workflows/` 到运行时目录。
+Copy only the required skill directories from `skills/` to your Agent platform's Skills directory. Keep each directory name identical to the `name` in its `SKILL.md`. Do not copy `.skill-drafts/`, `registry/`, or `workflows/` into the runtime directory.
 
-## 更新公开仓库 Skill
+The upstream repositories are sources, not complete runtime dependencies. Import or enable an upstream skill only when a project workflow requires it.
+
+## Update Upstream Sources
 
 ```sh
 ./scripts/sync-upstream.sh
 ```
 
-脚本会拉取 Matt Pocock/skills 和 obra/superpowers 的最新提交，并更新 `UPSTREAM.lock.json`。同步后重新安装即可：
+The script fetches the latest commits from Matt Pocock/skills and obra/superpowers and updates `UPSTREAM.lock.json`. It updates the upstream checkouts only; it does not import every upstream skill into the active namespace. Review the curated set and copy only the required skills before reinstalling:
 
 ```sh
 FORCE=1 ./scripts/install.sh
 ```
 
-## 验证安装
+## Verify the Installation
 
 ```sh
 ./scripts/validate-skills.sh
 ./scripts/list-skills.sh
 ```
 
-看到 `PASS` 且能列出 Skill 路径，即表示仓库内容有效。
+A `PASS` result and a list of skill paths confirm that the repository content is valid.

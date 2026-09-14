@@ -1,6 +1,8 @@
 # Product Engineering Skills Repository
 
-A maintainable, single-responsibility skills repository for the complete product engineering lifecycle:
+A maintainable, single-responsibility skills repository for the complete product engineering lifecycle.
+
+Matt Pocock/skills and obra/superpowers are upstream sources only. This repository selects individual skills according to project requirements and workflows; it does not use either repository wholesale.
 
 **Idea → Product Spec → UX → Design → Figma → Frontend → QA → Verification → Ship**
 
@@ -28,6 +30,7 @@ Public skills for planning, implementation discipline, TDD, debugging, parallel 
 - [Workflow](docs/WORKFLOW.md): the complete lifecycle and routing rules.
 - [Installation](docs/INSTALL.md): installation, updates, and verification.
 - [Architecture](docs/ARCHITECTURE.md): repository structure and design principles.
+- [Upstream Policy](docs/UPSTREAM-POLICY.md): how upstream skills are selected and maintained.
 - [Skill Boundaries](docs/SKILL-BOUNDARIES.md): responsibility boundaries.
 - [Contributing Skills](docs/CONTRIBUTING-SKILLS.md): custom skill authoring rules.
 
