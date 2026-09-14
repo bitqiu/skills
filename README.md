@@ -29,6 +29,7 @@ Public skills for planning, implementation discipline, TDD, debugging, parallel 
 - [Skill Catalog](docs/SKILL-CATALOG.md): skills grouped by source with descriptions.
 - [Workflow](docs/WORKFLOW.md): the complete lifecycle and routing rules.
 - [Installation](docs/INSTALL.md): installation, updates, and verification.
+- [Usage](docs/USAGE.md): how to select and compose skills.
 - [Architecture](docs/ARCHITECTURE.md): repository structure and design principles.
 - [Upstream Policy](docs/UPSTREAM-POLICY.md): how upstream skills are selected and maintained.
 - [Skill Boundaries](docs/SKILL-BOUNDARIES.md): responsibility boundaries.
