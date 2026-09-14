@@ -1,0 +1,32 @@
+# Operating system
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Editor and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local runtime and temporary upstream checkouts
+.tmp/
+.restart-backup-*/
+
+# Skill evaluation workspaces and generated review artifacts
+*-workspace/
+evals/.cache/
+feedback.json
+benchmark.json
+benchmark.md
+
+# Local installation targets
+.codex/
+
+# Logs and local environment files
+*.log
+.env
+.env.*
+!.env.example
+.skill-drafts

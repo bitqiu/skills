@@ -1,0 +1,117 @@
+# Generated registry; each entry maps one active skill to one responsibility.
+
+- name: code-review
+  source: mattpocock
+  created_with: upstream
+
+- name: design-system-reader
+  source: custom
+  created_with: skill-creator
+
+- name: design-validator
+  source: custom
+  created_with: skill-creator
+
+- name: dispatching-parallel-agents
+  source: superpowers
+  created_with: upstream
+
+- name: domain-modeling
+  source: mattpocock
+  created_with: upstream
+
+- name: executing-plans
+  source: superpowers
+  created_with: upstream
+
+- name: figma-screen-builder
+  source: custom
+  created_with: skill-creator
+
+- name: figma-to-frontend
+  source: custom
+  created_with: skill-creator
+
+- name: finishing-a-development-branch
+  source: superpowers
+  created_with: upstream
+
+- name: frontend-context-reader
+  source: custom
+  created_with: skill-creator
+
+- name: frontend-design-validator
+  source: custom
+  created_with: skill-creator
+
+- name: grill-with-docs
+  source: mattpocock
+  created_with: upstream
+
+- name: information-architecture
+  source: custom
+  created_with: skill-creator
+
+- name: page-inventory
+  source: custom
+  created_with: skill-creator
+
+- name: page-layout-designer
+  source: custom
+  created_with: skill-creator
+
+- name: prototype
+  source: mattpocock
+  created_with: upstream
+
+- name: receiving-code-review
+  source: superpowers
+  created_with: upstream
+
+- name: requesting-code-review
+  source: superpowers
+  created_with: upstream
+
+- name: research
+  source: mattpocock
+  created_with: upstream
+
+- name: subagent-driven-development
+  source: superpowers
+  created_with: upstream
+
+- name: systematic-debugging
+  source: superpowers
+  created_with: upstream
+
+- name: test-driven-development
+  source: superpowers
+  created_with: upstream
+
+- name: to-spec
+  source: mattpocock
+  created_with: upstream
+
+- name: to-tickets
+  source: mattpocock
+  created_with: upstream
+
+- name: user-flow
+  source: custom
+  created_with: skill-creator
+
+- name: using-git-worktrees
+  source: superpowers
+  created_with: upstream
+
+- name: using-superpowers
+  source: superpowers
+  created_with: upstream
+
+- name: verification-before-completion
+  source: superpowers
+  created_with: upstream
+
+- name: writing-plans
+  source: superpowers
+  created_with: upstream

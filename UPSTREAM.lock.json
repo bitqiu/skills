@@ -1,0 +1,35 @@
+[
+  {
+    "repository": "mattpocock/skills",
+    "commit": "HEAD is now at 3cca18b Merge pull request #1025 from mattpocock/chore/link-skills-exclude-misc\n3cca18b368ae95cdbdebbff572ccafa662551015",
+    "skills": [
+      "research",
+      "domain-modeling",
+      "to-tickets",
+      "to-spec",
+      "prototype",
+      "grill-with-docs",
+      "code-review"
+    ],
+    "synced_at": "2026-09-15"
+  },
+  {
+    "repository": "obra/superpowers",
+    "commit": "HEAD is now at b36e082 Release v6.3.0: Devin CLI and Hermes Agent support, brainstorming three-path router, SDD/Codex efficiency fixes (#2125)\nb36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+    "skills": [
+      "using-superpowers",
+      "writing-plans",
+      "subagent-driven-development",
+      "executing-plans",
+      "dispatching-parallel-agents",
+      "test-driven-development",
+      "systematic-debugging",
+      "verification-before-completion",
+      "requesting-code-review",
+      "receiving-code-review",
+      "using-git-worktrees",
+      "finishing-a-development-branch"
+    ],
+    "synced_at": "2026-09-15"
+  }
+]

@@ -1,0 +1,71 @@
+# Custom skills were authored from contracts through skill-creator.
+
+- name: page-inventory
+  created_with: skill-creator
+  contract: .skill-drafts/page-inventory.md
+  review_status: PASS
+  boundary_test_status: PASS
+  iterations: 1
+
+- name: information-architecture
+  created_with: skill-creator
+  contract: .skill-drafts/information-architecture.md
+  review_status: PASS
+  boundary_test_status: PASS
+  iterations: 1
+
+- name: user-flow
+  created_with: skill-creator
+  contract: .skill-drafts/user-flow.md
+  review_status: PASS
+  boundary_test_status: PASS
+  iterations: 1
+
+- name: design-system-reader
+  created_with: skill-creator
+  contract: .skill-drafts/design-system-reader.md
+  review_status: PASS
+  boundary_test_status: PASS
+  iterations: 1
+
+- name: page-layout-designer
+  created_with: skill-creator
+  contract: .skill-drafts/page-layout-designer.md
+  review_status: PASS
+  boundary_test_status: PASS
+  iterations: 1
+
+- name: design-validator
+  created_with: skill-creator
+  contract: .skill-drafts/design-validator.md
+  review_status: PASS
+  boundary_test_status: PASS
+  iterations: 1
+
+- name: figma-screen-builder
+  created_with: skill-creator
+  contract: .skill-drafts/figma-screen-builder.md
+  review_status: PASS
+  boundary_test_status: PASS
+  iterations: 1
+
+- name: frontend-context-reader
+  created_with: skill-creator
+  contract: .skill-drafts/frontend-context-reader.md
+  review_status: PASS
+  boundary_test_status: PASS
+  iterations: 1
+
+- name: figma-to-frontend
+  created_with: skill-creator
+  contract: .skill-drafts/figma-to-frontend.md
+  review_status: PASS
+  boundary_test_status: PASS
+  iterations: 1
+
+- name: frontend-design-validator
+  created_with: skill-creator
+  contract: .skill-drafts/frontend-design-validator.md
+  review_status: PASS
+  boundary_test_status: PASS
+  iterations: 1
